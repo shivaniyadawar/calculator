@@ -1,0 +1,54 @@
+h2 {
+    text-align: center;
+    color: blue;
+    
+}
+
+#bigBox{
+    margin: auto;
+    width: 60%;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: rgba(86, 107, 36, 0.459);
+    border-radius: 5%;
+    
+}
+#rBox{
+    margin: auto;
+    width: 100%;
+    border: 2px solid black;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 0%;
+}
+
+.btn{
+    /* height: 150px;
+    margin: auto;
+    border: 2px solid black;
+    background-color:pink;
+    margin-top: 50px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+button{
+    padding: 10px;
+    margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btnBox{
+    width: 60%;
+    height: 200px;
+    background-color: pink;
+    margin: auto;
+    margin-top: 20px;
+}

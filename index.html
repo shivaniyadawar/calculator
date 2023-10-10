@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h2>Calculator</h2>
+        <div id="bigBox">
+            <input type="text" id="rBox" placeholder="  Enter Value..." readonly="">
+          <div class="btnBox">
+          <div class="btn">
+            <button onclick="addInp(1)">1</button>
+            <button onclick="addInp(2)">2</button> 
+            <button onclick="addInp(3)">3</button> 
+            <button onclick="addInp(4)">4</button> 
+            <button onclick="addInp(5)">5</button>
+            </div> 
+          <div class="btn">
+            <button onclick="addInp(6)">6</button>   
+            <button onclick="addInp(7)">7</button> 
+            <button onclick="addInp(8)">8</button> 
+            <button onclick="addInp(9)">9</button>
+            <button onclick="addInp(0)">0</button>
+            </div>
+          <div class="btn">
+            <button onclick="addInp('+')">+</button>
+            <button onclick="addInp('-')">-</button>
+            <button onclick="addInp('*')">*</button>
+            <button onclick="addInp('/')">/</button>
+            <button onclick="equ()">=</button>
+            </div>
+          <div class="btn">  
+            <button onclick="cls()">clear</button> 
+          </div>
+        </div>
+        </div>
+        
+      <script src="calc.js"></script>
+    </body>
+  </html>
