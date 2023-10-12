@@ -1,26 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     text-align: center;
-    color: blue;
-    
+    color: black; 
 }
 
 #bigBox{
     margin: auto;
-    width: 60%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     border: 3px solid black;
     padding: 10px;
-    background-color: rgba(86, 107, 36, 0.459);
+    background-color: #0A0708;
     border-radius: 5%;
     
 }
 #rBox{
-    margin: auto;
+    margin: 0;
     width: 100%;
     border: 2px solid black;
-    height: 40px;
-    background-color: aquamarine;
+    height: 10%;
+    background-color: #444444;
     border-radius: 0%;
+    color: white;
+    position:relative;
 }
 
 .btn{
@@ -39,16 +46,20 @@ h2 {
 
 button{
     padding: 10px;
-    margin: 3px;
+    margin: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     cursor: pointer;
+    background-color: #b1b1b1;
+
 }
 
 .btnBox{
     width: 60%;
-    height: 200px;
-    background-color: pink;
+    height: 60%;
+    background-color: #747474;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    
 }
