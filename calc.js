@@ -14,7 +14,7 @@
     }
 
     document.addEventListener("keydown", (event) => {
-        if(event.key == "="){
+        if(event.key == "Enter"){
             if(val.value.match(letters)){
                 equ();
             }else{
